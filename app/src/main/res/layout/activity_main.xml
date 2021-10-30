@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Welcome"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/red"
+        >
+
+    </TextView>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:hint="  Enter User Name"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+   android:layout_marginTop="100dp"
+
+    android:id="@+id/userName"
+    android:background="@drawable/border"
+    >
+
+</EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="   Enter ID"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/userId"
+        android:background="@drawable/border"
+
+        >
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="   Home Code"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/homeCode"
+        android:background="@drawable/border"
+
+
+        >
+
+    </EditText>
+
+    <Button
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/red"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Sign In"
+        android:id="@+id/signIn"
+        ></Button>
+</LinearLayout>

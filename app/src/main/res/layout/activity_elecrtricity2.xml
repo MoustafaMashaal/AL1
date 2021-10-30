@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ElecrtricityActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Electricity Information"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/red"
+        >
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_edit_text_check"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/border"
+        android:hint="Enter Electricity ID "
+        android:padding="20dp"
+
+        >
+
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/red"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Show past consumption"
+        android:id="@+id/sPastE"
+
+        ></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/red"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Show Prediction"
+        android:id="@+id/spredE"
+        ></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/red"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Check Consumption"
+        android:id="@+id/checkE"
+
+        ></Button>
+
+</LinearLayout>

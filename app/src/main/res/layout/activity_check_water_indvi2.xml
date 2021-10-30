@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CheckWaterIndviActivity2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input your daily consumption to check whether it's moderate, high or extremely high"
+            android:textStyle="bold"
+            android:textColor="#b0203a"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="20dp"
+            >
+        </TextView>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:src="@drawable/speed"
+    android:layout_marginTop="20dp"
+    >
+
+</ImageView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Value"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/border"
+            android:id="@+id/water_percentage"
+            android:inputType="number"
+
+            >
+
+        </EditText>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#b0203a"
+        android:text="Check"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+
+        android:textStyle="bold"
+        android:id="@+id/check_water"
+        >
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Extremely high Consumption.."
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/warning"
+        android:textColor="#b0203a"
+        android:backgroundTint="#C0C0C0"
+        android:background="#C0C0C0"
+        android:visibility="gone"
+
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" High consumption.."
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/nearRisk"
+        android:textColor="#FFFF33"
+        android:backgroundTint="#C0C0C0"
+        android:background="#C0C0C0"
+        android:visibility="gone"
+
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Moderate Consumption..."
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/safe"
+        android:textColor="#009900"
+        android:backgroundTint="#C0C0C0"
+        android:background="#C0C0C0"
+        android:visibility="gone"
+
+        >
+    </TextView>
+
+</LinearLayout>
